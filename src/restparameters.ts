@@ -4,9 +4,9 @@
 * in TypeScript we have to declare it explicitly
 * Obviously, they must be defined after the required parameters
 */
-function charge (total : number, ...discount: number[]) : number {
-  var result : number = total;
-  for (i=0; i<discount.length; i++) {
+function charge (total: number, ...discount: number[]): number {
+  let result: number = total;
+  for (i=0; i < discount.length; i++) {
     result = result - discount[i];
   }
   return result;

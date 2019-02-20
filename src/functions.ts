@@ -2,7 +2,7 @@
 * Simple function to say hello
 * Takes a string as a parameter and returns string
 */
-function hello (name : string) : string {
+function hello (name: string): string {
   return 'Hello ' + name;
 };
 

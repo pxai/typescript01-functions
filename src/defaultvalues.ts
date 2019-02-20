@@ -4,7 +4,7 @@
 * As optional parameters, parameters with default values
 * must be defined after the required parameters
 */
-function charge (total : number, vat=0.21) : number {
+function charge (total: number, vat:number = 0.21): number {
     return total + (total * vat);
 };
 

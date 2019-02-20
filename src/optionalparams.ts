@@ -7,7 +7,7 @@
 * Obviously, they must be defined after the required parameters
 */
 function charge (total : number, discount?: number) : number {
-  var taxes : number = 0.5;
+  let taxes : number = 0.5;
   if (discount) {
     return (total * taxes) - discount;
   } else {
